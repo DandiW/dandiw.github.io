@@ -1,0 +1,129 @@
+// Add any custom Sass & CSS here
+
+body{
+	@include breakpoint(medium down){
+		//background: red !important;
+	}
+}
+
+//--------------------------------------------------
+.step1{
+    background-color:$step1;
+      
+}
+
+.step2{
+    background-color:$step2;  
+    
+}
+
+.step3{
+    background-color:$step3;
+}
+
+.step4{
+    background-color:$step4;
+}
+
+
+h2 {
+    padding-top: 76px;
+    height: 200px;
+    color:white;
+    font-family: $font1;
+    font-weight:200;
+}
+
+//Navbar------------
+
+.title-bar{
+    background-color: #6C1835 !important;
+    font-family: $step !important;
+    font-size: 40px !important;
+    
+    .title-bar-right{
+    font-family: $font1 !important;
+    font-size: 20px;
+        
+}
+}
+
+body{
+    
+    background-color: ivory !important;
+}
+
+.sticky.is-anchored{
+    height: 100px !important;
+}
+.menu-text{
+    padding:1rem 2rem;
+    
+}
+
+
+.menu > li > a {
+    padding:2rem 1rem;
+}
+
+a {
+    color:white;
+    font-weight: bold;
+    
+}
+
+.off-canvas{
+    a{
+        background-color: #a9a9a9;
+    }
+}
+
+//step1-------------------------------------------
+.step1_content{
+  background-color: #9797D2;
+  color:white;
+}
+
+.video_intro{
+    font-family: fantasy;
+    font-size:20px;
+    margin-top:200px;
+}
+
+.video_title{
+//    postion:absolute;
+//    top:50%;
+//    transition: transform(0%,50%);
+}
+
+
+//--footer--------------------------------------
+#footer{
+    font-size: 55px;
+    text-align: center;
+    
+    background-color: #F47128;
+    #desinger{
+        font-family: "Maven Pro",sans-serif;
+        font-size: 12px;
+        color: white;
+        a{
+            text-decoration:underline;
+        }
+    }
+    a{
+        color: white;
+            
+        }
+    
+}
+//-------------------------------------------------
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
